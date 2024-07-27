@@ -87,6 +87,13 @@ weather-monitoring/
 4. Push to the branch (git push origin feature-branch).
 5. Create a new Pull Request.
 
+**Key Features**
+1. Real-time Weather Data Retrieval: Continuously fetches weather data for multiple cities at specified intervals.
+2. Data Processing and Conversion: Converts raw data into meaningful metrics, such as temperature in Celsius.
+3. Daily Summaries and Aggregates: Aggregates weather data on a daily basis to provide summaries like average, maximum, and minimum temperatures, as well as dominant weather conditions.
+4. Threshold-Based Alerts: Monitors temperature thresholds and generates alerts if certain conditions are met.
+5. Data Storage: Uses SQLite for storing historical weather data.
+6. Visualization: Generates visual representations of the weather data for better insights.
    
 **License**
 This project is licensed under the MIT License.
