@@ -23,20 +23,33 @@ The objective of this project is to develop a real-time data processing system t
 3. Visual Studio Code (VS Code)
 
 **Requirements:**
-﻿1. certifi==2024.7.4
-2. charset-normalizer==3.3.2
-3. idna==3.7
-4. numpy==2.0.1
-5. pandas==2.2.2
-6. python-dateutil==2.9.0.post0
-7. pytz==2024.1
-8. requests==2.32.3
-9. six==1.16.0
-10. tzdata==2024.1
-11. urllib3==2.2.2
-12. requests
-13. pandas
-14. SQLAlchemy
+﻿certifi==2024.7.4
+ 
+charset-normalizer==3.3.2
+
+idna==3.7
+
+numpy==2.0.1
+
+pandas==2.2.2
+
+python-dateutil==2.9.0.post0
+
+pytz==2024.1
+
+requests==2.32.3
+
+six==1.16.0
+
+tzdata==2024.1
+
+urllib3==2.2.2
+
+requests
+
+pandas
+
+SQLAlchemy
 
 
 **Setup Instructions**
