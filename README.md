@@ -61,3 +61,33 @@ Clone the repository: Go to GitHub and create a new repository named weather-mon
    
    python -m unittest discover tests
 
+
+**Project Structure**
+The project directory structure is as follows:
+weather-monitoring/
+├── src/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── config.py
+│   ├── weather_api.py
+│   ├── data_processing.py
+│   ├── aggregates.py
+│   ├── database.py
+│   └── visualizations.py
+├── tests/
+│   ├── __init__.py
+│   └── test_app.py
+├── requirements.txt
+└── README.md
+
+**Contributing**
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Commit your changes (git commit -am 'Add new feature').
+4. Push to the branch (git push origin feature-branch).
+5. Create a new Pull Request.
+
+   
+**License**
+This project is licensed under the MIT License.
+
