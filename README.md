@@ -26,29 +26,38 @@ The objective of this project is to develop a real-time data processing system t
 **Setup Instructions**
 1. Installation
 Clone the repository: Go to GitHub and create a new repository named weather-monitoring. Clone the repository to your local machine
+
 Command:
+
 git clone https://github.com/vanshika-pahuja/weather-monitoring.git
 cd weather-monitoring
 
-2. Create a virtual environment and install dependencies: Create and activate a virtual environment:
-Command: 
+3. Create a virtual environment and install dependencies: Create and activate a virtual environment:
+
+Command:
+
 python -m venv venv
 venv\Scripts\activate  # On Windows
 source venv/bin/activate  # On macOS/Linux
 
 Install the required packages:
+
 Command:
 pip install -r requirements.txt
 
 3. Configure the application: Update the src/config.py file with your OpenWeatherMap API key and other settings.
 
 4. Run the application:
+   
    Command:
+   
    python src/app.py
 
-5. Testing
+6. Testing
 Run tests:
+
 Ensure that all components are working as expected by running the unit tests:
 Command:
+
 python -m unittest discover tests
 
