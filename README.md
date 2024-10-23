@@ -58,7 +58,7 @@ Clone the repository: Go to GitHub and create a new repository named weather-mon
 
    Command:
    
-   git clone https://github.com/vanshika-pahuja/weather-monitoring.git
+   git clone https://github.com/manikantaindla/weather-monitoring
    cd weather-monitoring
 
 3. Create a virtual environment and install dependencies: Create and activate a virtual environment:
